@@ -37,7 +37,8 @@ public class MyOperators {
 
         //Operadores de comparación o relacionales == compara si son iguales, != si es distinto, < <= > >=
         int aa = 3, bb = 4;
-        var result3 = aa==bb;//false
+        var result3 = aa==bb;//false, para ver si es la misma dirección de memoria
+        //usa equalals valor1.equals(valor2) para saber si tiene el mismo valor
         result3 = aa!=bb;//true
         result3= aa<=bb;//true
         result3 = aa<bb;//true
