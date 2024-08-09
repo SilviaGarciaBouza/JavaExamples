@@ -1,3 +1,5 @@
+package elements;
+
 import java.util.Scanner;
 
 public class MyArray {

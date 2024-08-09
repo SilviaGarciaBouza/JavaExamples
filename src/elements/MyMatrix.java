@@ -1,3 +1,5 @@
+package elements;
+
 import java.util.Scanner;
 
 public class MyMatrix {
@@ -69,7 +71,7 @@ public class MyMatrix {
         for(var rii=0; rii<3; rii++){
             for (var cii=0; cii<3;cii++){
                 if (rii==cii){
-                    sum= sum + matrix5[rii][cii];
+                    sum += matrix5[rii][cii];
                 }
                 else {continue;}
             }

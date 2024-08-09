@@ -1,3 +1,5 @@
+package elements;
+
 public class IfIfelseElseSwitch {
     public static void main(String[] args) {
         //if  {} solo obligat si tienen 2o+líneas dentro
