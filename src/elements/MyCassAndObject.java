@@ -34,9 +34,9 @@ public class MyCassAndObject {
 class Person {
     int number1;
     int number2;
-    //normalmente los parámetros del constructor se llaman igual q los atributos de fuera. Para usar el del constructor dentro de él usaremos this
+    //normalmente los parámetros del constructor se llaman igual q los atributos de fuera. Para usar el del constructor dentro de él usaremos this(this es el de la clase)
     public Person(int number1, int number2){
-        this.number1=number1;
+        this.number1=number1;//this number el d la clase, number1 el del ()
         this.number2=number2;
     }
     void add(){
@@ -49,3 +49,5 @@ class Person {
     }
 
         }
+
+        //Encapsulamiento. private/public set/get
