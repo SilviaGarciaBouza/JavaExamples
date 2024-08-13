@@ -17,7 +17,7 @@ public class MyCassAndObject {
     void calculate(){
         System.out.println(age + 1);
     }
-
+//se pone static a las fun q se llaman dentro de la main
     public static void main(String[] args) {
         //Objeto con el constructor primero:
         var persona1 = new MyCassAndObject();//Objeto: instacia de la clase
