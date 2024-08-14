@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class MyArray {
     public static void main(String[] args) {
+
+
         //Arrais:
         //Declarar e inicial:forma1. declaras para crear e inicializas para guardar espacio en memoria
         int[] myArray;
@@ -50,6 +52,14 @@ public class MyArray {
             System.out.println(arrayExample[x]);
         }
 
+
+
+        //forEach: for(var age(crea un var para cada elemento del array): ages(se pone cuál es el array.
+        // si necesitas utilizar el indice usa mejor for, no foreach.
+        int ages[] = {1,2,3,4,5,6,7};
+        for(var age:ages){
+            System.out.println("age: "+ age);
+        }
 
 
     }
