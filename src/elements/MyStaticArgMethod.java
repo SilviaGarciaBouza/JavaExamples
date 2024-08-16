@@ -1,6 +1,7 @@
 package elements;
 
 public class MyStaticArgMethod {
+    //si hay algo static se puede usar sin hacer un objeto antes
     //atributos static se asocian con la class. Suele iniciarse el valor en la classy con cada objeto no se inicia
     static int objectCounter = 0;
     //atributo dinámico(el asociado a los objetos)
